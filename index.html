@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avoid</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="images/logoavoid.png" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">Showcase</a>
+            <a href="#products">products</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-1.png" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$4.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-2.png" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$8.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-3.png" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$5.99/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="images/cart-item-4.png" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$10.99/-</div>
+                </div>
+            </div>
+            <a href="#" class="btn">checkout now</a>
+        </div>
+
+    </header>
+    <!-- header section ends -->
+
+
+    <!-- marcas start  -->
+    <div class="flatbox"> <!--caixa horizontal-->
+        <div><p>razer</p></div>
+        <div><p>hyperx</p></div>
+        <div><p>etc</p></div>
+        <div><p>4</p></div>
+        <div><p>5</p></div>
+        <div><p>6</p></div>
+        <div><p>7</p></div>
+        <div><p>7</p></div>
+    </div>
+
+    <!-- marcas end  --> 
+
+    <!--swiper start-->
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="project-img">
+                    <img src="images/audio.png" alt="Foto 01">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="project-img">
+                    <img src="images/keyboard.png" alt="Foto 02">
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="project-img">
+                    <img src="images/mouse.png" alt="Foto 03">
+                </div>
+            </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!--swiper end-->
+
+
+
+
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+        <div class="rowh">
+            <div class="imageh">
+                <img src="images/home2.png" alt="">
+                <div class="overlay"></div> <!-- Adicione esta linha -->
+            </div>
+            <div class="content">
+                <h3>Welcome to avoid</h3>
+                <p>Explore a wide range of tech and geek products at avoid. From luxury to great value, we have everything you need to satisfy your inner geek. Start shopping now!</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+        <br>
+        <h1 class="heading"><span>about</span> us</h1>
+        <div class="row">
+          <div class="image-container">
+            <img src="images/about-img.png" alt="">
+          </div>
+          <div class="content">
+            <h3>What makes avoid special?</h3>
+            <p>avoid is more than just an online store. We are a reselling platform specializing in tech and geek products. We are committed to providing a complete experience, from curating the best products to ensuring secure and fast shipping for our customers.</p>
+            <p id="extraText" style="display: none;">Our dedication goes beyond product quality. We understand the importance of shipping and strive to ensure that your orders arrive flawlessly. We work with reliable logistics partners and pay attention to every detail of the process, from careful packaging to tracking every step of the way.
+                At avoid, we are devoted to delivering exceptional customer service throughout your shopping journey. Our friendly team is ready to assist with any product and shipping-related inquiries and needs. We want you to feel confident and satisfied when choosing avoid as your go-to platform for tech and geek purchases.
+            </p>
+            <a class="btn" onclick="toggleText()">learn more</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- about section ends -->
+
+    <!-- menu section starts  -->
+
+    <section class="menu" id="menu">
+        <br>
+        <h1 class="heading">Product <span>Showcase</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/prod1.png" alt="">
+                <h3>Artisan FX Hayate Otsu XL</h3>
+                <div class="price">R$780.00 <span>820.00</span></div>
+                <a href="https://mpago.la/1BWvXHw" class="btn">add to cart</a>
+            </div>
+            <div class="box">
+                <img src="images/prod2 (2).webp" alt="">
+                <h3>Viper v2 Pro + Dongle 4KHz</h3>
+                <div class="price">R$1.562,31 <span>R$1.679,90</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/prod3.webp" alt="">
+                <h3>Akko ACR61 BOW White</h3>
+                <div class="price">R$836,91 <span>R$899,91</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/prod4.webp" alt="">
+                <h3>Lamzu Atlantis Mini white
+                </h3>
+                
+                <div class="price">R$771,81 <span>R$829,90</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <img src="images/prod5.webp" alt="">
+                <h3>Deathadder v3 Pro + Dongle 4Khz</h3>
+                <div class="price">R$1.729,90 <span>R$1.608,81</span></div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+ 
+        </div>
+
+    </section>
+
+    <!-- menu section ends -->
+
+    <section class="products" id="products">
+        <br>
+        <h1 class="heading"> All <span>Categories</span> </h1>
+  <div class="box-container">
+    <div class="box">
+      <a href="keyboard.html">
+        <div class="icons"></div>
+        <div class="imageC">
+          <img src="images/keyboard.png" alt="">
+        </div>
+        <div class="contentc">
+          <h3>Keyboards</h3>
+        </div>
+      </a>
+    </div>
+    <div class="box">
+        <a href="mouse.html">
+            <div class="icons">
+            </div>
+            <div class="imageC">
+                    <img src="images/mouse.png" alt="">
+                  </div>
+                  <div class="contentc">
+                    <h3>Mouses</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="box">
+                <a href="pad.html">
+                  <div class="icons">
+                  </div>
+                  <div class="imageC">
+                    <img src="images/pad.png" alt="">
+                  </div>
+                  <div class="contentc">
+                    <h3>Mousepad</h3>
+                  </div>
+                </a>
+              </div>
+              <div class="box">
+                <a href="audio.html">
+                  <div class="icons">
+                  </div>
+                  <div class="imageC">
+                    <img src="images/audio.png" alt="">
+                  </div>
+                  <div class="contentc">
+                    <h3>Headset</h3>
+                  </div>
+                </a>
+              </div>
+   
+        </div>
+
+    </section>
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+        <br>
+        <h1 class="heading"> customer's <span>review</span> </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus
+                    vel? Nemo.</p>
+                <img src="images/pic-1.png" class="user" alt="">
+                <h3>Ali Afzal</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus
+                    vel? Nemo.</p>
+                <img src="images/pic-2.png" class="user" alt="">
+                <h3>Abu Bakkar</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/quote-img.png" alt="" class="quote">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla sit libero nemo fuga sequi
+                    nobis? Necessitatibus aut laborum, nisi quas eaque laudantium consequuntur iste ex aliquam minus
+                    vel? Nemo.</p>
+                <img src="images/pic-3.png" class="user" alt="">
+                <h3>M.Ramzan</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+        <br>
+        <h1 class="heading"> <span>contact</span> us </h1>
+        <div class="row">
+            <iframe class="map" src="/images/bull.png" allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="links">
+            <a href="#">home</a>
+            <a href="#">about</a>
+            <a href="#">Showcase</a>
+            <a href="#">products</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">blogs</a>
+        </div>
+
+        <div class="credit"><span>avoid</span> | Since 2023</div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+    <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+
+</html>
