@@ -302,23 +302,27 @@ section {
 }
 
 /* ------------------------About ============== */
+
 .about .row {
+    
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     background: var(--black);
 }
 
+
 .about .row .image-container {
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    
 }
 
 .about .row .image-container img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .about .row .content {
@@ -332,14 +336,17 @@ section {
 .about .row .content h3 {
     margin-top: 10%;
     font-size: 3rem;
-    color: var(--txt);
+    color: white;
 }
 
 .about .row .content p {
     font-size: 1.7rem;
-    color: var(--txt);
+    color: white;
     padding: 1rem 0;
     line-height: 1.8;
+}
+.about .row .content .btn{
+    padding: 10px;
 }
 
 /* ------------------------------menu----------------- */
